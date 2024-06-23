@@ -1,11 +1,11 @@
 [package]
-name = "rustdesk"
+name = "Numedia-Desktop"
 version = "1.2.6"
 authors = ["rustdesk <info@rustdesk.com>"]
 edition = "2021"
 build= "build.rs"
-description = "RustDesk Remote Desktop"
-default-run = "rustdesk"
+description = "Numedia Remote Desktop"
+default-run = "Numedia-Desktop"
 rust-version = "1.75"
 
 [lib]

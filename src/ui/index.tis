@@ -666,10 +666,7 @@ class UpdateMe: Reactor.Component {
     function render() {
         var update_or_download = "download"; // !is_win ? "download" : "update";
         return <div .install-me>
-            <div>{translate('Status')}</div>
-            <div>There is a newer version of {handler.get_app_name()} ({handler.get_new_version()}) available.</div>
-            <div #install-me.link>{translate('Click to ' + update_or_download)}</div>
-            <div #download-percent style="display:hidden; padding-top: 1em;" />
+            <div>Numedia</div>
         </div>;
     }
 
